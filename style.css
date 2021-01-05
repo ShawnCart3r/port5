@@ -91,11 +91,18 @@ padding: 5%;
 }
 
 .skills{
-margin-left: 10%;
+    margin-left: 10px;
+}
+
+.skills2{
+   
+   
 }
 
 .react{
     color: blue;
+   
+    
     
 }
 
@@ -115,10 +122,13 @@ margin-left: 10%;
 
 .boot{
     color: purple;
+  
+    
 }
 
 .scss{
     color: red;
+    margin-left: 15px ;
 }
 
 .me{
@@ -148,4 +158,41 @@ margin-left: 10%;
 
 .circle{
     margin-top: -8%;
+    margin-left: 10px;
+}
+
+/* resume*/
+
+.opener{
+    text-align: center;
+
+}
+
+.experience{
+    text-align: center;
+}
+
+.certificates{
+    text-align: center;
+
+}
+
+.awards{
+    margin-left: 30%;
+}
+
+.education{
+    text-align: center;
+}
+
+.skillss{
+    text-align: center;
+}
+
+.link{
+    color: blue;
+}
+
+.git{
+    color: black;
 }
