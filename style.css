@@ -1,0 +1,94 @@
+
+
+
+h4{
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    padding: 5%;
+}
+
+h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    
+}
+
+.front{
+    text-align: center;
+}
+
+.drop{
+    margin-top: 20% ;
+}
+/* about section */
+.square{
+    text-align: center;
+   padding: 2%;
+    
+    margin: auto;
+    
+  
+    
+}
+
+.skill{
+
+text-align: center;
+padding: 5%;
+
+
+
+
+
+
+}
+
+.skills{
+margin-left: 10%;
+}
+
+.react{
+    color: blue;
+    
+}
+
+.js{
+    color: red;
+    
+}
+
+.ht{
+    color: darkblue;
+    
+}
+.css{
+    color: yellow;
+    
+}
+
+.boot{
+    color: purple;
+}
+
+.scss{
+    color: red;
+}
+
+.me{
+    text-align: center;
+   
+}
+
+.beard{
+    margin-left: 40%;
+    width: 20%;
+}
+/* work section */
+.b{
+    text-align: center;
+}
+
+
+/* contact section */
