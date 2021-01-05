@@ -1,5 +1,8 @@
 
-
+/*Front */
+.home{
+    background-image: url("");
+}
 
 h4{
     text-align: center;
@@ -14,20 +17,62 @@ h2{
     font-size: large;
     
 }
+h3{
+   
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    
+    
 
-.front{
+}
+
+h1{
+    position: relative;
+    text-align: center;
+    margin-top: 60%;
+ 
+    
+}
+
+.btn{
     text-align: center;
 }
 
+.front{
+    text-align: center;
+    
+}
+
+.align{
+   
+    margin: 0;
+}
+
+.beard{
+    margin-left: 26%;
+    margin-top: 40%;
+    width: 50%;
+}
+
 .drop{
-    margin-top: 20% ;
+    margin-top: 5% ;
 }
 /* about section */
+#about{
+    background-image: url("");
+
+}
+.me2{
+ margin-top: 20%;
+}
+
 .square{
     text-align: center;
    padding: 2%;
     
     margin: auto;
+    box-sizing: border-box;
     
   
     
@@ -81,14 +126,26 @@ margin-left: 10%;
    
 }
 
-.beard{
-    margin-left: 40%;
-    width: 20%;
+
+
+.lang{
+    margin-top: 2%;
 }
 /* work section */
+#work{
+    background-image: url(""); 
+
+}
 .b{
     text-align: center;
 }
 
 
 /* contact section */
+#contact{
+    background-image: url("");
+}
+
+.circle{
+    margin-top: -8%;
+}
