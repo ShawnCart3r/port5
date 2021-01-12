@@ -1,3 +1,8 @@
+body{
+  color: white;
+  background-color: black;
+}
+
 
 /*Front */
 .home{
@@ -91,13 +96,10 @@ padding: 5%;
 }
 
 .skills{
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
-.skills2{
-   
-   
-}
+
 
 .react{
     color: blue;
@@ -141,6 +143,12 @@ padding: 5%;
 .lang{
     margin-top: 2%;
 }
+
+.pad{
+    margin-top: 3%;
+}
+
+
 /* work section */
 #work{
     background-image: url(""); 
@@ -194,5 +202,10 @@ padding: 5%;
 }
 
 .git{
-    color: black;
+    color: white;
 }
+
+a{
+    text-decoration:none;
+    color: white;
+  }
