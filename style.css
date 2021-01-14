@@ -1,312 +1,315 @@
-body{
+/* No CSS */
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto+Condensed:400,400i,700,700i");
+body {
   color: white;
   background-color: black;
 }
 
-
 /*Front */
-#home{
-    background-image: url("");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.home{
-    background-image: url("");
+#home {
+  background-image: url("");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-h4{
-    text-align: center;
-    font-weight: bold;
-    font-size: large;
-    padding: 2%;
-   
+.home {
+  background-image: url("");
 }
 
-h2{
-    text-align: center;
-    font-weight: bold;
-    font-size: large;
-    
-}
-h3{
-   
-    text-align: center;
-    font-weight: bold;
-    font-size: large;
-    
-    
-
+h4 {
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+  padding: 2%;
 }
 
-h1{
-    position: relative;
-    text-align: center;
-    margin-top: 60%;
- 
-    
+h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
 }
 
-.btn{
-    text-align: center;
+h3 {
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
 }
 
-.front{
-    text-align: center;
-    
+h1 {
+  position: relative;
+  text-align: center;
+  margin-top: 60%;
 }
 
-.align{
-   
-    margin: 0;
+
+h6{
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
 }
 
-.beard{
-    margin-left: 26%;
-    margin-top: 40%;
-    width: 50%;
+.btn {
+  text-align: center;
 }
 
-.drop{
-    margin-top: 5% ;
+.front {
+  text-align: center;
 }
+
+.align {
+  margin: 0;
+}
+
+.beard {
+  margin-left: 26%;
+  margin-top: 40%;
+  width: 50%;
+}
+
+.drop {
+  margin-top: 5%;
+}
+
 /* about section */
-#about{
-    background-image: url("");
-
-}
-.me2{
- margin-top: 20%;
+#about {
+  background-image: url("");
 }
 
-.square{
-    text-align: center;
-   padding: 2%;
-    
-    margin: auto;
-    box-sizing: border-box;
-    
-  
-    
+.me2 {
+  margin-top: 20%;
 }
 
-.skill{
-
-text-align: center;
-padding: 5%;
-
-
-
-
-
-
+.square {
+  text-align: center;
+  padding: 2%;
+  margin: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-.skills{
-    margin-left: 5px;
+.skill {
+  text-align: center;
+  padding: 5%;
 }
 
-
-
-.react{
-    color: blue;
-   
-    
-    
+.skills {
+  text-align: center;
 }
 
-.js{
-    color: red;
-    
+.react {
+  color: blue;
 }
 
-.ht{
-    color: darkblue;
-    
-}
-.css{
-    color: yellow;
-    
+.js {
+  color: red;
 }
 
-.boot{
-    color: purple;
-  
-    
+.ht {
+  color: darkblue;
 }
 
-.scss{
-    color: red;
-    margin-left: 15px ;
+.css {
+  color: yellow;
 }
 
-.me{
-    text-align: center;
-   
+.boot {
+  color: purple;
 }
 
-
-
-.lang{
-    margin-top: 2%;
+.scss {
+  color: red;
 }
 
-.pad{
-    margin-top: 3%;
+.me {
+  text-align: center;
 }
 
+.lang {
+  margin-top: 2%;
+}
+
+.pad {
+  margin-top: 3%;
+}
 
 /* work section */
-#work{
-    background-image: url(""); 
-
-}
-.b{
-    text-align: center;
+#work {
+  background-image: url("");
 }
 
-@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto+Condensed:400,400i,700,700i');
-section{
-    padding: 100px 0;
+.b {
+  text-align: center;
+}
+
+section {
+  padding: 100px 0;
 }
 
 .card-content {
-	background: #ffffff;
-	border: 4px;
-	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+  background: #ffffff;
+  border: 4px;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
 .card-img {
-	position: relative;
-	overflow: hidden;
-	border-radius: 0;
-	z-index: 1;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0;
+  z-index: 1;
 }
 
 .card-img img {
-	width: 100%;
-	height: auto;
-	display: block;
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .card-img span {
-	position: absolute;
-    top: 15%;
-    left: 12%;
-    background: #1ABC9C;
-    padding: 6px;
-    color: #fff;
-    font-size: 12px;
-    border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -o-border-radius: 4px;
-    transform: translate(-50%,-50%);
+  position: absolute;
+  top: 15%;
+  left: 12%;
+  background: #1ABC9C;
+  padding: 6px;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
-.card-img span h4{
-        font-size: 12px;
-        margin:0;
-        padding:10px 5px;
-         line-height: 0;
+
+.card-img span h4 {
+  font-size: 12px;
+  margin: 0;
+  padding: 10px 5px;
+  line-height: 0;
 }
+
 .card-desc {
-	padding: 1.25rem;
+  padding: 1.25rem;
 }
 
 .card-desc h3 {
-	color: #000000;
-    font-weight: 600;
-    font-size: 1.5em;
-    line-height: 1.3em;
-    margin-top: 0;
-    margin-bottom: 5px;
-    padding: 0;
+  color: #000000;
+  font-weight: 600;
+  font-size: 1.5em;
+  line-height: 1.3em;
+  margin-top: 0;
+  margin-bottom: 5px;
+  padding: 0;
 }
 
 .card-desc p {
-	color: #747373;
-    font-size: 14px;
-	font-weight: 400;
-	font-size: 1em;
-	line-height: 1.5;
-	margin: 0px;
-	margin-bottom: 20px;
-	padding: 0;
-	font-family: 'Raleway', sans-serif;
-}
-.btn-card{
-	background-color: #1ABC9C;
-	color: #fff;
-	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
-    padding: .84rem 2.14rem;
-    font-size: .81rem;
-  
-    margin: 0;
-    border: 0;
-    -webkit-border-radius: .125rem;
-    border-radius: .125rem;
-    cursor: pointer;
-    text-transform: uppercase;
-    white-space: normal;
-    word-wrap: break-word;
-    color: #fff;
-}
-.btn-card:hover {
-    background: orange;
-}
-a.btn-card {
-    text-decoration: none;
-    color: #fff;
+  color: #747373;
+  font-size: 14px;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.5;
+  margin: 0px;
+  margin-bottom: 20px;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
 }
 
+.btn-card {
+  background-color: #1ABC9C;
+  color: #fff;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  padding: .84rem 2.14rem;
+  font-size: .81rem;
+  margin: 0;
+  border: 0;
+  border-radius: .125rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  white-space: normal;
+  word-wrap: break-word;
+  color: #fff;
+  
+}
+.btn-card2 {
+  background-color: #1ABC9C;
+  color: #fff;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  padding: .84rem 2.14rem;
+  font-size: .81rem;
+  margin: 0;
+  border: 0;
+  border-radius: .125rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  white-space: normal;
+  word-wrap: break-word;
+  color: #fff;
+ 
+  
+}
+
+.btn-card:hover {
+  background: orange;
+}
+
+a.btn-card {
+  text-decoration: none;
+  color: #fff;
+}
+
+.center {
+  text-align: center;
+}
 
 /* contact section */
-#contact{
-    background-image: url("");
+
+#contact {
+  background-image: url("");
 }
 
-.circle{
-    margin-top: -8%;
-    margin-left: 10px;
+.circle {
+  margin-top: -100px;
+  margin-left: 10px;
 }
 
 /* resume*/
-
-.opener{
-    text-align: center;
-
+.opener {
+  text-align: center;
 }
 
-.experience{
-    text-align: center;
+.experience {
+  text-align: center;
 }
 
-.certificates{
-    text-align: center;
-
+.certificates {
+  text-align: center;
 }
 
-.awards{
-    margin-left: 30%;
+.awards {
+  margin-left: 30%;
 }
 
-.education{
-    text-align: center;
+.education {
+  text-align: center;
 }
 
-.skillss{
-    text-align: center;
+.skillss {
+  text-align: center;
 }
 
-.link{
-    color: blue;
+.link {
+  color: blue;
 }
 
-.git{
-    color: white;
+.git {
+  color: white;
 }
 
-a{
-    text-decoration:none;
-    color: white;
-  }
+a {
+  text-decoration: none;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
