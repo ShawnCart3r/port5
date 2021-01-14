@@ -46,6 +46,12 @@ body{
    
       
   }
+
+  h6{
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+  }
   
   .btn{
       text-align: center;
@@ -62,9 +68,8 @@ body{
   }
   
   .beard{
-      margin-left: 26%;
-      margin-top: 40%;
-      width: 50%;
+      
+  width: 110%;
   }
   
   .drop{
@@ -153,15 +158,25 @@ body{
   
   
   
-  .lang{
-      margin-top: 2%;
-  }
-  
-  .pad{
-      margin-top: 3%;
-  }
-
  
+  
+ 
+
+  .card-text{
+      color: black;
+      margin-top: 15%;
+      font-size: large;
+      font-weight: bold;
+      
+  }
+  .card-header{
+      border: 1px solid black;
+      border-radius: 10px;
+  }
+ 
+  .card-title{
+
+  }
   
   
   /* work section */
@@ -281,6 +296,9 @@ body{
   .circle{
       margin-top: -8%;
       margin-left: 10px;
+  }
+  h6{
+
   }
   
   /* resume*/
