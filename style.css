@@ -68,8 +68,10 @@ body{
   }
   
   .beard{
-      
-  width: 110%;
+      margin-top: 2.5%;
+      border: 1px solid black;
+      border-radius: 10px;
+  width: 100%;
   }
   
   .drop{
