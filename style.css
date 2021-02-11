@@ -177,7 +177,7 @@ body{
   }
  
   .card-title{
-
+      
   }
   
   
@@ -340,4 +340,8 @@ body{
   a{
       text-decoration:none;
       color: white;
+    }
+
+    .text{
+        margin-top: -5px;
     }
