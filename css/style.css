@@ -337,7 +337,7 @@ a {
 }
 
 .about__image {
-  width: 315px;
+  width: 314px;
   height: 400px;
   background-color: green;
   border: 9px solid black;
@@ -352,7 +352,7 @@ a {
 }
 
 .about__me {
-  width: 300px;
+  width: 296.5px;
   height: 385px;
   border-radius: 50%;
 }
