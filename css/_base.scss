@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 67.52%;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+//languages and frameworks
+.html{
+    color: blue;
+}
+.css{
+    color: yellow;
+}
+
+.js{
+    color: red;
+}
+
+.boot{
+    color: darkblue;
+}
+
+.sass{
+    color: pink;
+}
+.react{
+    color: teal;
+}
+
+.git{
+    color: black;
+  }
