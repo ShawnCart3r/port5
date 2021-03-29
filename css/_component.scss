@@ -167,7 +167,9 @@
   overflow: hidden;
   cursor: pointer;
   animation: moveInRight 1s ease-out;
-
+ a{
+   
+ }
   & > *{
       display: inline-block;
       height: 100%;
@@ -301,7 +303,7 @@
 //Projects
 .main{
     .main{
-        max-width: 1200px;
+        max-width: 1220px;
         margin: 0 auto;
         
       }
